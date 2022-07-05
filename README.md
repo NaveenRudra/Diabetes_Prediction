@@ -1,7 +1,7 @@
-renatl_bike_model
+Diabetes_model
 ==============================
 
-ML model to predict rental bike
+ML model to predict if a person is having diabetes given the data.
 
 Project Organization
 ------------
