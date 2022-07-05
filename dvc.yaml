@@ -28,7 +28,7 @@ stages:
 
 
   log_production_model:
-    cmd: python src/models/production_model_selection.py --config=params.yaml
+    cmd: python3 src/models/production_model_selection.py --config=params.yaml
     deps:
     - src/models/production_model_selection.py
     params:
