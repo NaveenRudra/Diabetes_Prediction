@@ -1,7 +1,15 @@
-Diabetes_model
+Diabetes_Prediction_model
 ==============================
 
-ML model to predict if a person is having diabetes given the data.
+ML model to predict if a person is having diabetes given the data. Random forest is used for prediction.
+
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+
+The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
+
+Result:
+-------
+Model achieved an accuracy of 75%. 
 
 Project Organization
 ------------
@@ -31,6 +39,9 @@ Project Organization
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
+    ├── Webapp             <- this holds all the files needed for web app rendering
+    ├── app.py             <- this holds all the code about flask app
+    │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
@@ -54,5 +65,4 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-# rental_bike
+
