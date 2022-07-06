@@ -42,6 +42,7 @@ Project Organization
     ├── Webapp             <- this holds all the files needed for web app rendering
     ├── app.py             <- this holds all the code about flask app
     │
+    ├── metrics.json       <- this holds the information on metrics 
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
